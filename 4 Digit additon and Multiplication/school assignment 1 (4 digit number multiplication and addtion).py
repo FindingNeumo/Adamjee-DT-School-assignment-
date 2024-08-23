@@ -1,7 +1,7 @@
 def main():
-    number = int(input("Enter a number: "))
+    number = int(input("Enter a 4 digit number number: "))
     
-    if 1 <= number <= 2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000:
+    if 1000 <= number <= 9999:
         operation = input("Enter '+' for addition or 'x' for multiplication: ")
         value = int(input("Enter the value: "))
         
@@ -15,7 +15,8 @@ def main():
         print("Credits: Created by Amlan Rahaman (Roll 15)")
         print(f"Result: {result}")
     else:
-        print("Please enter a valid four-digit number.")
+        print("Please enter a valid 4 digit number.")
 
 if __name__ == "__main__":
     main()
+    
