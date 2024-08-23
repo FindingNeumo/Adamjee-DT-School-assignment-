@@ -7,8 +7,8 @@ operation = input("Enter '+' for Addition and 'x' for Multiplication: ").strip()
 
 if operation == '+':
     result = no1 + no2 + no3 + no4
-    print(▄▀█ █▀▄▀█ █░░ ▄▀█ █▄░█)
-    print(█▀█ █░▀░█ █▄▄ █▀█ █░▀█)
+    print("▄▀█ █▀▄▀█ █░░ ▄▀█ █▄░█")
+    print("█▀█ █░▀░█ █▄▄ █▀█ █░▀█")
     print('Addition =', result)
 elif operation == 'x':
     result = no1 * no2 * no3 * no4
