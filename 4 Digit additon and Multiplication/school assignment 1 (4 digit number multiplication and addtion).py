@@ -1,5 +1,5 @@
 def main():
-    number = int(input("Enter a 4 digit number number: "))
+    number = int(input("Enter a 4 digit number : "))
     
     if 1000 <= number <= 9999:
         operation = input("Enter '+' for addition or 'x' for multiplication: ")
